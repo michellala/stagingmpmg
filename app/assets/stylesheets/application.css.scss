@@ -15,12 +15,20 @@ html {
 body {
   margin: 0;
 }
+
+
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
+footer {
+
+  background:#f5f5f5;
+  width:100%;
+  height:100px;
+/*    position:absolute;*/
+}
 header,
 hgroup,
 main,
@@ -1413,6 +1421,7 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
+padding-top: 70px;
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
@@ -6800,3 +6809,6 @@ img {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+

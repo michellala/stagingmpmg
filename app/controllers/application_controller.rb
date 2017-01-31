@@ -41,8 +41,8 @@ class ApplicationController < ActionController::Base
   def powerwash
   end
 
-  def snowremoval
-  end
+  # def snowremoval
+  # end
 
   
 
